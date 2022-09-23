@@ -4,7 +4,7 @@
 
 import random
 n1 = (int(input('Tente adivinhar o número que o computador está pensando entre 0 á 5: ')))
-d = random.randint(0, 2)
+d = random.randint(0, 5)
 print('O número do computador é {}'.format(d))
 
 if d == n1:
